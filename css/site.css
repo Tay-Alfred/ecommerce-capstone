@@ -115,8 +115,8 @@ h1{
   .flex-item {
 
     flex: 5; 
-    }
-
+   
+}
 
   .flex-image {
 
@@ -130,4 +130,10 @@ h1{
 ; 
 
   }
-  bk{padding: 50px}
+  bk{
+    
+    padding: 50px
+
+}
+
+.col-lg-8{margin-right: auto;margin-left: auto;}
