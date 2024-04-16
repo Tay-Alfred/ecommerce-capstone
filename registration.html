@@ -10,15 +10,16 @@
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
      
-        <div class="container-fluid">
+        <div class="flex-container-fluid col text-center form-control">
           <a class="navbar-brand" href="home-page.html">Plant Addictations</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-       
+        </div>
+        <div class="container-fluid col text-center form-control">
           <div class="collapse navbar-collapse" 
           id="navbarSupportedContent">
-
+            <div class="flex-container">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link" href="login.html">Log In</a>
@@ -40,34 +41,37 @@
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Navigation
                 </a>
+              </div>
+          </div>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="#">About Us</a></li>
                   <li><a class="dropdown-item" href="#">Contact Us</a></li>
                   <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="#">Feedback</a></li>
                 </ul>
+                
               </li>
               
             </ul>
            
             </form>
           </div>
-        </div>
+        
       </nav>
 <header>
     <main>
         <div class="container">
             <div class="row">
-                <div class="col">
+                <div class="col text-center">
                    <h1>Cause you're sweet like a Flower in bloom.</h1> 
                 </div>
             </div>
         </div>
-
-        <div class="row">
+        <!-- Container has the header "Can I Call.." Need to fix the CSS background-image-->
+        <div class="row">  
           <div class="col-md-2"></div>
           <div class="col-md-8">
-          <div id="registration" class="rounded-2"       
+          <div id="registration" class="rounded-2">      
          <form>
             <div class="mb-3">
             <label for="Username" class="form-label">Username</label>
@@ -75,21 +79,23 @@
             <div id="Username" class="form-text">Create A New User</div>
            </div>
 
+           
+           <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email Address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+           </div>
+
            <div class="mb-3">
             <label for="exampleInputPassword1" class="form-label">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
+            <input type="password" class="form-control" id="exampleInputPassword1" aria-describedby="passwordHelp">
+            <div id="passwordHelp" class="form-text"> Must include: one uppercase letter, special symbol(!@#$%^&*), and numbers.</div>
            </div>
 
-           <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-           </div>
-
-           <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label"> Confirm Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1"aria-describedby="confirmPassword">
+            <div id="confirmPassword" class="form-text">Both passwords must match.</div>
            </div>
 
             <div class="mb-3 form-check">
@@ -99,8 +105,10 @@
 
             <button type="submit" class="btn btn-primary">Submit</button>
          </form> 
+          </div> 
           </div>
         </div>
+        <!-- This is the registration window -->
     </main>
     
     
