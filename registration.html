@@ -12,61 +12,85 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-rosemary">
+
 
       <div id="plantnavbar" class="flex-container-fluid text-center ">
-        <a class="navbar-brand" href="home-page.html">Plant Addictations</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    
+        <a id="homepagetitle" class="navbar-brand" href="home-page.html">Plant Addictations</a>
+    
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    
           <span class="navbar-toggler-icon"></span>
+    
         </button>
+    
       </div>
+    
       <div class="container-fluid text-center">
+    
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    
           <div class="flex-container">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="login.html">Log In</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="registration.html">Sign Up</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="products.html">Products</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="checkout.html">Checkout
-                </a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  Navigation
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">About Us</a></li>
-                  <li><a class="dropdown-item" href="#">Contact Us</a></li>
-                  <li>
-                    <hr class="dropdown-divider">
-                  </li>
-                  <li><a class="dropdown-item" href="#">Feedback</a></li>
-                </ul>
-
-          </div>
+    
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    
+            <li class="nav-item">
+    
+              <a class="nav-link" href="login.html">Log In</a>
+    
+            </li>
+    
+    
+            <li class="nav-item">
+    
+              <a class="nav-link active" aria-current="page" href="registration.html">Sign Up</a>
+    
+            </li>
+    
+    
+            <li class="nav-item">
+    
+              <a class="nav-link" href="products.html">Products</a>
+    
+            </li>
+    
+    
+            <li class="nav-item">
+    
+              <a class="nav-link" href="checkout.html">Checkout
+    
+              </a>
+    
+            </li>
+    
+            <li class="nav-item dropdown">
+    
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    
+                Navigation
+    
+              </a>
+    
+              <ul class="dropdown-menu">
+    
+                <li><a class="dropdown-item" href="#">About Us</a></li>
+    
+                <li><a class="dropdown-item" href="#">Contact Us</a></li>
+    
+                <li><hr class="dropdown-divider"></li>
+    
+                <li><a class="dropdown-item" href="#">Feedback</a></li>
+    
+              </ul>
+    
+            </div>
+    
         </div>
-
-        </li>
-
-        </ul>
-
-        </form>
-      </div>
-
-    </nav>
-    <h1>Cause you're sweet like a Flower in bloom.</h1>
+    
+    
+      </nav>
+    <h1 class="col text-center">Cause you're sweet like a Flower in bloom.</h1>
   </header>
   <main>
     <div class="container">
@@ -82,19 +106,21 @@
       <div class="col-md-8">
         <div id="registration" class="rounded-2">
           <form>
+            <!-- This is the registration window -->
+            <!-- The User Name box starts here -->
             <div class="mb-3">
               <label for="Username" class="form-label">Username</label>
               <input type="user" class="form-control" id="User" aria-describedby="User">
               <div id="Username" class="form-text">Create A New User</div>
             </div>
-
+            <!-- Enail address -->
 
             <div class="mb-3">
               <label for="exampleInputEmail1" class="form-label">Email Address</label>
               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
               <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
             </div>
-
+            <!-- passwords -->
             <div class="mb-3">
               <label for="exampleInputPassword1" class="form-label">Password</label>
               <input type="password" class="form-control" id="exampleInputPassword1" aria-describedby="passwordHelp">
@@ -103,22 +129,67 @@
             </div>
 
             <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label"> Confirm Password</label>
-              <input type="password" class="form-control" id="exampleInputPassword1" aria-describedby="confirmPassword">
+              <label for="exampleInputPassword1" class="form-label"><strong>Confirm Password</strong></label>
+              <input type="password" class="form-control" id="exampleInputPassword2" aria-describedby="confirmPassword">
               <div id="confirmPassword" class="form-text">Both passwords must match.</div>
             </div>
 
-            <div class="mb-3 form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            <div class="row-mb-3">
+            
+              <p id="Hearaboutus"><strong>How Did You Hear About Us?</strong></p></label>
+          
             </div>
+             <!-- Radio buttons Start Here -->
+        <div class="flex-container">
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioFacebook">
+            <label class="form-check-label" for="flexRadioFacebook">
+              Facebook
+            </label>
+          </div>
 
-            <button type="submit" class="btn btn-primary">Submit</button>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioTikTok" checked>
+            <label class="form-check-label" for="flexRadioTikTok">
+              TikTok
+            </label>
+          </div>
+
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioReddit">
+            <label class="form-check-label" for="flexRadioReddit">
+              Reddit
+            </label>
+          </div>
+
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioTumblr" checked>
+            <label class="form-check-label" for="flexRadioTumblr">
+              Tumblr
+            </label>
+          </div>
+
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioX">
+            <label class="form-check-label" for="flexRadioX">
+              X (Previously known as Twitter)
+            </label>
+          </div>
+
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioInstagram" checked>
+            <label class="form-check-label" for="flexRadioInstagram">
+              Instagram
+            </label>
+          </div>
+        </div> 
+            <button type="submit" class="btn btn-secondary">Sign Up</button>
           </form>
+           
         </div>
       </div>
     </div>
-    <!-- This is the registration window -->
+    
   </main>
 
 
