@@ -77,7 +77,6 @@ h1{
     
     font-family: fantasy;
     
-    color: antiquewhite;
 }
 
 #secretworld{
@@ -113,19 +112,19 @@ h1{
 
   .flex-item {
 
-    flex: 1;
-
-  }
+    flex: 5; 
+    }
 
 
   .flex-image {
 
-    height: auto;
+    height :auto;
 
-    width: 100%;
+    min-height: 1500px
 
-    max-width: 300px;
+    width: 1500px;
 
-    object-fit: cover;
+    object-fit: fill
+; 
 
   }
