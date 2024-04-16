@@ -1,4 +1,4 @@
 body{background-color: rosybrown;margin: 0;}
 h1{color: rosybrown;background-image: linear-gradient(#F89880,#F2D2BD); margin-bottom: 25px;padding-left: 0%;padding-right: 0%;}
 .nav-link{color: palevioletred;font-weight: bold;}
-#registration{background-color:#F89880  ; border: 2px solid #DC143C; border-radius: 25px; }
+#registration{background-color:#F89880  ; border: 2px solid #DC143C; border-radius: 25px; padding: 20px;}
