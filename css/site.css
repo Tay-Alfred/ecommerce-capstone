@@ -19,6 +19,43 @@ h1{
 
 }
 
+#homebio{
+    color: black;
+}
+
+#taylor-image{
+
+    margin-right: 170px;
+
+    margin-top: 25px;
+
+    display: block;
+
+    float: left;
+
+   border: 10px solid pink;
+}
+
+#jamirah-image{
+    margin-left: 170px;
+    
+    display: block;
+
+    float: right;
+
+    border: 10px solid pink;
+}
+p{
+    overflow: hidden;
+
+    font-size: 19px;
+
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+    padding-top: 20px
+
+}
+
 #home-page-header{
     background-image: linear-gradient(#f89880,#787677);
 
