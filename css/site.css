@@ -137,6 +137,24 @@ align-items: center;
     flex-direction: column;
 }
 
+h1{
+    text-shadow: 2px 1px 2px #212121;
+}
+
+#checkmeout{
+
+    border: 5px solid #F89880;
+    
+    border-radius: 25px;
+    
+    padding: 20px;
+    
+    background-color: #a97b6f;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
 #homepagetitle{
     font-size: 32px;
     
