@@ -31,6 +31,8 @@ h1{
     display: block;
 
     float: inline-end;
+
+    object-fit: contain;
 }
 
 #taylor-image{
