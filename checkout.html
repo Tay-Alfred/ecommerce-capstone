@@ -85,62 +85,79 @@
                   
                 
             </div>
-            <form class="row g-3 needs-validation" novalidate>
-          <div class="col-md-4 position-relative">
-            <label for="validationTooltip01" class="form-label">First name</label>
-            <input type="text" class="form-control" id="validationTooltip01" value="Mark" required>
-            <div class="valid-tooltip">
-              Looks good!
-            </div>
-          </div>
-          <div class="col-md-4 position-relative">
-            <label for="validationTooltip02" class="form-label">Last name</label>
-            <input type="text" class="form-control" id="validationTooltip02" value="Otto" required>
-            <div class="valid-tooltip">
-              Looks good!
-            </div>
-          </div>
-          <div class="col-md-4 position-relative">
-            <label for="validationTooltipUsername" class="form-label">Username</label>
-            <div class="input-group has-validation">
-              <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
-              <input type="text" class="form-control" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required>
-              <div class="invalid-tooltip">
-                Please choose a unique and valid username.
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 position-relative">
-            <label for="validationTooltip03" class="form-label">City</label>
-            <input type="text" class="form-control" id="validationTooltip03" required>
-            <div class="invalid-tooltip">
-              Please provide a valid city.
-            </div>
-          </div>
-          <div class="col-md-3 position-relative">
-            <label for="validationTooltip04" class="form-label">State</label>
-            <select class="form-select" id="validationTooltip04" required>
-              <option selected disabled value="">Choose...</option>
-              <option>Georgia</option>
-              <option>Florida</option>
-              <option>New York</option>
-              <option>Tennessee</option>
-            </select>
-            <div class="invalid-tooltip">
-              Please select a valid state.
-            </div>
-          </div>
-          <div class="col-md-3 position-relative">
-            <label for="validationTooltip05" class="form-label">Zip</label>
-            <input type="text" class="form-control" id="validationTooltip05" required>
-            <div class="invalid-tooltip">
-              Please provide a valid zip.
-            </div>
-          </div>
-          <div class="col-12">
-            <button class="btn btn-primary" type="submit" >Submit form</button>
-          </div>
-        </form>
+           <!-- checkout form -->
+            <section class="py-5">
+              <div class="container px-4 px-lg-5 mt-5">
+                <div class="card" style="width: 50%; margin: 0 auto; padding: 20px">
+                      <form class="row g-3">
+                        <div class="col-md-6">
+                          <label for="inputFirstName4" class="form-label">First Name</label>
+                          <input type="name" class="form-control" id="fnputFirstName4" placeholder="Ex: John" />
+                        </div>
+                        <div class="col-md-6">
+                          <label for="inputLastName4" class="form-label">Last Name</label>
+                          <input type="name" class="form-control" id="inputLastName4" placeholder="Ex: Doe" />
+                        </div>
+                        <div class="col-md-6">
+                          <label for="inputemail4" class="form-label">Email</label>
+                          <input type="name" class="form-control" id="fnputFirstName4" placeholder="Ex: MyEmail@email.com" />
+                        </div>
+                        <div class="col-md-6">
+                          <label for="inputLastName4" class="form-label">Phone</label>
+                          <input type="name" class="form-control" id="inputLastName4" placeholder="Ex: (999)999-9999" />
+                        </div>
+                          <div class="col-md-6">
+                          <label for="inputFirstName4" class="form-label">Address</label>
+                          <input type="name" class="form-control" id="fnputFirstName4" placeholder="Ex: 123 Hamster Ville"/>
+                        </div>
+                        <div class="col-md-6">
+                          <label for="inputLastName4" class="form-label">City</label>
+                          <input type="name" class="form-control" id="inputLastName4" placeholder="Ex: Groovy Town" />
+                        </div>
+                        <div class="col-md-6">
+                          <label for="inputFirstName4" class="form-label">State</label>
+                          <input type="name" class="form-control" id="fnputFirstName4" placeholder="Ex: Utopia"/>
+                        </div>
+                        <div class="col-md-6">
+                          <label for="inputLastName4" class="form-label">Zip</label>
+                          <input type="name" class="form-control" id="inputLastName4" placeholder="Ex: 100001" />
+                        </div>               
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th>Product</th>
+                          <th>Quantity</th>
+                          <th>Price</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Mason Blanket (Black)</td>
+                          <td>1</td>
+                          <td>$350.00</td>
+                        </tr>
+                        <tr>
+                          <td>Kimura Blanket (Brown)</td>
+                          <td>3</td>
+                          <td>$1050.00</td>
+                        </tr>
+                        <tr>
+                          <td>Mason Blanket (Charcoal)</td>
+                          <td>5</td>
+                          <td>$2,125.00</td>
+                        </tr>
+                        <tr>
+                          <td></td>
+                          <td>Total</td>
+                          <td>$3,525.00</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <button type="submit" class="btn btn-secondary">Submit Order</button>
+                  </form>
+                </div>
+          </section>
+            
        </div>
         </div>
       

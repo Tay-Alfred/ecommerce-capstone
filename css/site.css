@@ -21,6 +21,16 @@ h1{
 
 #homebio{
     color: black;
+
+    padding-top: 50px;
+
+    overflow: hidden;
+}
+
+#carouselExampleAutoplaying{
+    display: block;
+
+    float: inline-end;
 }
 
 #taylor-image{
@@ -56,6 +66,10 @@ p{
 
 }
 
+#login-box{
+    display: flex;
+
+}
 #home-page-header{
     background-image: linear-gradient(#f89880,#787677);
 
@@ -398,5 +412,4 @@ a.buy-btn{
   border-color: #FF9800;
   background: #FF9800;
   color: #fff;
-}
 }
