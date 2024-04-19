@@ -75,7 +75,6 @@ p{
 #home-page-header{
     background-image: linear-gradient(#f89880,#787677);
 
-    color: #212121;
 }
 
 #product-pageheader{
@@ -83,25 +82,18 @@ p{
     font-size: 45px;
 }
 
-/* #tay-socials{
-    border: 5px solid #f89880;
-
-    background-color: #a97b6f;
-
-    padding: 50px;
-
-
+#caro-1{
+    color: pink;
 }
-#jam-socials{
-    border: 5px solid #f89880;
 
-    background-color:#a97b6f ;
 
-    padding: 50px;
+#caro-2{
+    color: pink;
+}
 
-    margin-left: 70px;
-
-} */
+#caro-3{
+    color: pink;
+}
 .nav-link{
     color: rgb(97, 48, 64);
     
@@ -132,6 +124,16 @@ align-items: center;
     border-radius: 25px;
     
     padding: 20px;
+}
+
+#Mediums{
+    margin-left: 230px;
+
+    color: #212121;
+}
+
+ul{
+    list-style-type: none;
 }
 
 .flex-container-fluid{
