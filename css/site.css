@@ -178,8 +178,8 @@ h1{
     background-color: #a97b6f;
 
     font-family: Georgia, 'Times New Roman', Times, serif;
-
 }
+
 #cart-table{
     background-color: #a97b6f;
 
@@ -462,4 +462,5 @@ a.buy-btn{
   border-color: #FF9800;
   background: #FF9800;
   color: #fff;
+}
 }
