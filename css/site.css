@@ -1,13 +1,9 @@
-body{
-    background-color: #F2D2BD ;
-    
+body{ 
     margin: 0;
 }
 
 h1{
     color: rosybrown;
-    
-    background-image: linear-gradient(#F89880,#F2D2BD);
     
     margin-bottom: 25px;
     
@@ -21,10 +17,12 @@ h1{
 
 #homebio{
     color: black;
-
-    padding-top: 50px;
-
+    border-radius: 17px;
+    padding: 50px;
+    margin-top: 30px;
     overflow: hidden;
+    background-color: #aaa;
+    opacity: 0.8;
 }
 
 #carouselExampleAutoplaying{
@@ -40,12 +38,14 @@ h1{
     margin-right: 170px;
 
     margin-top: 25px;
-
+    margin-bottom: 50px;
     display: block;
 
     float: left;
 
-   border: 10px solid pink;
+   border: 5px solid #aaa;
+   box-shadow: 4px 3px 10px 5px #9372d4;
+
 }
 
 #jamirah-image{
@@ -55,7 +55,9 @@ h1{
 
     float: right;
 
-    border: 10px solid pink;
+    border: 5px solid #aaa;
+    box-shadow: 4px 3px 10px 5px #9372d4;
+
 }
 p{
     overflow: hidden;
@@ -70,10 +72,6 @@ p{
 
 #login-box{
     display: flex;
-
-}
-#home-page-header{
-    background-image: linear-gradient(#f89880,#787677);
 
 }
 
@@ -95,7 +93,7 @@ p{
     color: pink;
 }
 .nav-link{
-    color: rgb(97, 48, 64);
+    color: #45216b;
     
     font-weight: bold;
     
@@ -150,7 +148,7 @@ ul{
 
 .navbar-rosemary {
 
-    background-image: linear-gradient(#a97b6f,#F89880) !important; /* Rosemary color */
+    background-color: #aaa  !important;
   
   }
 .flex-container{
@@ -235,12 +233,11 @@ h1{
 
     height :auto;
 
-    min-height: 1500px
+    min-height: 1500px;
 
     width: 1500px;
 
-    object-fit: fill
-; 
+    object-fit: fill; 
 
   }
   
@@ -256,7 +253,9 @@ bk{
     
     margin-left: auto;
 }
-#totheleft{color: #212121;}
+#totheleft{color: #212121;
+  background-color: #aaa;
+  opacity: 0.8;}
 
 #totheright{color: #212121;}
 
