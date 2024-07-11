@@ -79,18 +79,32 @@ p{
     background-image: linear-gradient(#f89880,#787677);
     font-size: 45px;
 }
-
-#caro-1{
-    color: pink;
+#helpme{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 4px 3px 10px 5px #9372d4;
 }
 
-
-#caro-2{
-    color: pink;
+.btn{
+  background-color: #45216b;
+  transition: background-color 2s ease;
+ 
 }
-
-#caro-3{
-    color: pink;
+.btn:hover{
+  background-color: #9372d4;
+}
+.btn a{
+   color: white;
+    transition: color 2s ease;
+}
+.btn a:hover{
+  color: #000;
+}
+.carousel-caption{
+  color:white;
+  text-shadow: 2px 5px 4px #45216b;
+  background-color: rgb(170, 170, 170,0.5);
 }
 .nav-link{
     color: #45216b;
