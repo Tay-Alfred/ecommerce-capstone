@@ -1,0 +1,14 @@
+body {
+    background-color: #827eae;
+    padding-top: 1cap;
+    padding-left: 1cap;
+    padding-right: 1cap;
+    padding-bottom: 2cap;
+}
+
+.card {
+    margin-top: 5px;
+    margin-left: 55px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
