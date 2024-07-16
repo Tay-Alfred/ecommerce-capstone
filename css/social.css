@@ -1,0 +1,12 @@
+body {
+    text-align: center;
+    background-color: #827eae;
+}
+
+.card {
+    margin-top: 5px;
+    margin-left: 55px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    text-align: center;
+}
